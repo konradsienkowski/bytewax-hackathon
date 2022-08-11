@@ -18,7 +18,7 @@ const props = defineProps({
 // Define variables
 const canvas = ref(null)
 const ws = ref(null)
-const uri = 'ws://10.0.3.76:3000/'
+const uri = 'ws://localhost:3000/'
 
 // Draw the line based on websocket output
 const drawLines = (data) => {
